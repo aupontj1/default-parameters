@@ -1,0 +1,7 @@
+// default parameters
+
+function multiply (x, y) {
+  if(typeof y === 'undefined') {
+    y = 1;
+  }
+  return x * y;
